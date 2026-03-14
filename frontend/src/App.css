@@ -1,0 +1,28 @@
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Remove default App centering */
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Button transitions */
+button {
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Link transitions */
+a {
+    transition: color 0.2s ease;
+}
+
+/* Image lazy loading */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
