@@ -16,12 +16,14 @@ export const products = [
     id: 1,
     name: "PV Fabrics",
     fullName: "Polyester Viscose Fabrics",
-    description: "Durable polyester viscose fabrics ideal for uniforms and formal garments.",
+    description: "Durable polyester viscose fabrics ideal for uniforms and formal garments. Perfect blend of polyester's durability and viscose's comfort.",
     features: [
       "Excellent wrinkle resistance",
       "Superior color retention",
       "Comfortable all-day wear",
-      "Easy maintenance"
+      "Easy maintenance",
+      "Cost-effective solution",
+      "Professional appearance"
     ],
     applications: [
       "Corporate uniforms",
@@ -31,18 +33,52 @@ export const products = [
     ],
     widthRange: "36 - 58 inches",
     colors: ["Navy Blue", "Black", "Grey", "Beige", "Brown", "Charcoal"],
-    image: "https://images.unsplash.com/photo-1558769132-cb1aea9c1a5c?w=800"
+    image: "https://images.unsplash.com/photo-1558769132-cb1aea9c1a5c?w=800",
+    subProducts: [
+      {
+        id: 11,
+        name: "PV Uniform Fabrics",
+        description: "Specially designed for corporate and school uniforms with enhanced durability.",
+        gsm: "180-240 GSM",
+        blend: "65% Polyester, 35% Viscose",
+        features: ["Anti-pilling", "Wrinkle-free", "Color-fast", "Easy care"],
+        colors: ["Navy Blue", "Black", "Grey", "Maroon", "Bottle Green"],
+        applications: ["Corporate wear", "School uniforms", "Security uniforms", "Hotel staff"]
+      },
+      {
+        id: 12,
+        name: "PV Suiting Fabrics",
+        description: "Premium quality suiting fabric for formal wear and business suits.",
+        gsm: "220-280 GSM",
+        blend: "60% Polyester, 40% Viscose",
+        features: ["Rich texture", "Excellent drape", "Stain resistant", "Long-lasting"],
+        colors: ["Charcoal", "Navy", "Black", "Brown", "Grey"],
+        applications: ["Business suits", "Blazers", "Formal trousers", "Waistcoats"]
+      },
+      {
+        id: 13,
+        name: "PV Shirting Fabrics",
+        description: "Comfortable and elegant shirting fabric for formal and casual shirts.",
+        gsm: "120-160 GSM",
+        blend: "55% Polyester, 45% Viscose",
+        features: ["Breathable", "Smooth finish", "Non-iron", "Lightweight"],
+        colors: ["White", "Light Blue", "Pink", "Beige", "Cream"],
+        applications: ["Formal shirts", "Casual shirts", "Office wear", "Party wear"]
+      }
+    ]
   },
   {
     id: 2,
     name: "PC Fabrics",
     fullName: "Polyester Cotton Fabrics",
-    description: "Polyester cotton blends designed for comfort and durability.",
+    description: "Polyester cotton blends designed for comfort and durability. Best of both worlds - cotton's breathability with polyester's strength.",
     features: [
       "Breathable and comfortable",
       "High durability",
       "Low shrinkage",
-      "Smooth finish"
+      "Smooth finish",
+      "Easy to wash and maintain",
+      "Color stability"
     ],
     applications: [
       "Shirts and blouses",
@@ -52,18 +88,62 @@ export const products = [
     ],
     widthRange: "36 - 58 inches",
     colors: ["White", "Sky Blue", "Pink", "Mint Green", "Cream", "Light Grey"],
-    image: "https://images.unsplash.com/photo-1586105449897-20b5efeb3233?w=800"
+    image: "https://images.unsplash.com/photo-1586105449897-20b5efeb3233?w=800",
+    subProducts: [
+      {
+        id: 21,
+        name: "PC Shirting Fabrics",
+        description: "Premium shirting fabric combining cotton comfort with polyester durability.",
+        gsm: "110-150 GSM",
+        blend: "65% Polyester, 35% Cotton",
+        features: ["Soft feel", "Breathable", "Easy care", "Wrinkle resistant"],
+        colors: ["White", "Sky Blue", "Pink", "Lemon", "Peach", "Mint Green"],
+        applications: ["Formal shirts", "Casual shirts", "School uniforms", "Office wear"]
+      },
+      {
+        id: 22,
+        name: "PC Casual Wear Fabrics",
+        description: "Comfortable fabric perfect for everyday casual clothing and summer wear.",
+        gsm: "130-170 GSM",
+        blend: "60% Cotton, 40% Polyester",
+        features: ["Lightweight", "Moisture-wicking", "Soft texture", "Durable"],
+        colors: ["White", "Cream", "Beige", "Light Grey", "Pastel shades"],
+        applications: ["T-shirts", "Casual wear", "Summer clothing", "Kids wear"]
+      },
+      {
+        id: 23,
+        name: "PC Uniform Fabrics",
+        description: "Durable and comfortable fabric for institutional and corporate uniforms.",
+        gsm: "150-200 GSM",
+        blend: "55% Polyester, 45% Cotton",
+        features: ["Heavy-duty", "Color-fast", "Anti-bacterial finish", "Low maintenance"],
+        colors: ["Navy", "Black", "Grey", "Maroon", "Royal Blue"],
+        applications: ["Hospital uniforms", "School uniforms", "Industrial wear", "Service uniforms"]
+      },
+      {
+        id: 24,
+        name: "PC Twill Fabrics",
+        description: "Strong twill weave fabric ideal for trousers and workwear.",
+        gsm: "180-220 GSM",
+        blend: "65% Polyester, 35% Cotton",
+        features: ["Diagonal weave", "Extra strength", "Wrinkle resistant", "Professional look"],
+        colors: ["Black", "Navy", "Khaki", "Olive", "Brown"],
+        applications: ["Trousers", "Workwear", "Cargo pants", "Chinos"]
+      }
+    ]
   },
   {
     id: 3,
     name: "R/C Fabrics",
     fullName: "Rayon Cotton Fabrics",
-    description: "Rayon cotton blends suitable for premium shirting.",
+    description: "Rayon cotton blends suitable for premium shirting and fashion wear. Luxurious feel with excellent drape and comfort.",
     features: [
       "Luxurious drape",
       "Soft hand feel",
       "Excellent moisture absorption",
-      "Rich appearance"
+      "Rich appearance",
+      "Vibrant colors",
+      "Breathable and comfortable"
     ],
     applications: [
       "Premium shirts",
@@ -73,7 +153,49 @@ export const products = [
     ],
     widthRange: "36 - 58 inches",
     colors: ["White", "Ivory", "Pastel Blue", "Lavender", "Peach", "Sage Green"],
-    image: "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=800"
+    image: "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=800",
+    subProducts: [
+      {
+        id: 31,
+        name: "R/C Premium Shirting",
+        description: "Luxury shirting fabric with silk-like texture for high-end formal wear.",
+        gsm: "100-140 GSM",
+        blend: "60% Rayon, 40% Cotton",
+        features: ["Silk-like feel", "Excellent drape", "Rich luster", "Comfortable"],
+        colors: ["White", "Ivory", "Pastel Blue", "Peach", "Lavender", "Mint"],
+        applications: ["Premium shirts", "Designer shirts", "Ethnic wear", "Party wear"]
+      },
+      {
+        id: 32,
+        name: "R/C Ethnic Wear Fabrics",
+        description: "Perfect for traditional and ethnic garments with rich colors and texture.",
+        gsm: "120-160 GSM",
+        blend: "55% Rayon, 45% Cotton",
+        features: ["Vibrant colors", "Soft texture", "Easy drape", "Traditional appeal"],
+        colors: ["Maroon", "Royal Blue", "Emerald Green", "Golden", "Deep Red"],
+        applications: ["Kurtas", "Ethnic shirts", "Traditional wear", "Festival clothing"]
+      },
+      {
+        id: 33,
+        name: "R/C Fashion Fabrics",
+        description: "Contemporary fashion fabric for modern designs and casual elegance.",
+        gsm: "110-150 GSM",
+        blend: "50% Rayon, 50% Cotton",
+        features: ["Trendy appeal", "Lightweight", "Color variety", "Versatile"],
+        colors: ["Coral", "Turquoise", "Mustard", "Olive", "Wine", "Charcoal"],
+        applications: ["Fashion wear", "Casual shirts", "Dresses", "Designer garments"]
+      },
+      {
+        id: 34,
+        name: "R/C Slub Fabrics",
+        description: "Textured slub fabric with unique character for casual and semi-formal wear.",
+        gsm: "130-170 GSM",
+        blend: "55% Cotton, 45% Rayon",
+        features: ["Textured finish", "Unique appearance", "Breathable", "Natural look"],
+        colors: ["Natural", "Beige", "Light Grey", "Sky Blue", "Soft Pink"],
+        applications: ["Casual shirts", "Summer wear", "Relaxed fit clothing", "Beach wear"]
+      }
+    ]
   }
 ];
 
