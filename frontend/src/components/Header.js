@@ -22,11 +22,20 @@ export const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center">
-            <div className="text-2xl font-bold text-blue-900">
-              {companyInfo.name}
-            </div>
-          </Link>
+          
+  <Link to="/" className="flex items-center gap-3">
+
+    <img
+      src="/images/RR_logo.png"
+      alt="Logo"
+      className="h-20 w-auto"
+    />
+
+    <div className="text-2xl font-bold text-blue-900">
+      {companyInfo.name}
+    </div>
+
+  </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">

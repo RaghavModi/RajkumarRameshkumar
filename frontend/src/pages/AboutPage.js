@@ -7,17 +7,32 @@ export const AboutPage = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-50 via-white to-blue-50 py-16 lg:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-              About {companyInfo.name}
-            </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Your trusted partner in textile manufacturing
-            </p>
-          </div>
-        </div>
+
+      <section className="relative bg-gradient-to-br from-blue-50 via-white to-blue-50 py-24 overflow-hidden">
+      
+        {/* RIGHT SIDE IMAGE */}
+      <div className="absolute right-0 top-0 w-[100%] h-[100%] hidden lg:block">
+        <img
+          src="/images/about.png"
+          alt="Premium Fabrics"
+          className="w-full h-full object-cover
+          [mask-image:linear-gradient(to_left,black_75%,transparent)]
+          [-webkit-mask-image:linear-gradient(to_left,black_75%,transparent)]"
+        />
+      </div>
+      
+        {/* CONTENT */}
+  <div className="relative max-w-7xl mx-auto px-6 lg:px-8 flex flex-col items-center justify-center text-center">
+
+    <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 whitespace-nowrap">
+      About {companyInfo.name}
+    </h1>
+
+    <p className="text-xl text-gray-600">
+      Your trusted partner in textile manufacturing
+    </p>
+
+  </div>      
       </section>
 
       {/* Company Introduction */}
@@ -26,7 +41,7 @@ export const AboutPage = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="https://images.unsplash.com/photo-1617068919530-fc28e6b6cf2d?w=800"
+                src="images/leading_textile.png"
                 alt="Manufacturing Facility"
                 className="rounded-lg shadow-lg w-full"
               />
@@ -47,11 +62,7 @@ export const AboutPage = () => {
               <div className="space-y-3">
                 <div className="flex items-start">
                   <CheckCircle className="h-6 w-6 text-green-600 mr-3 flex-shrink-0 mt-0.5" />
-                  <p className="text-gray-700">ISO certified manufacturing processes</p>
-                </div>
-                <div className="flex items-start">
-                  <CheckCircle className="h-6 w-6 text-green-600 mr-3 flex-shrink-0 mt-0.5" />
-                  <p className="text-gray-700">State-of-the-art production facilities</p>
+                  <p className="text-gray-700">State-of-the-art production process</p>
                 </div>
                 <div className="flex items-start">
                   <CheckCircle className="h-6 w-6 text-green-600 mr-3 flex-shrink-0 mt-0.5" />
@@ -124,7 +135,7 @@ export const AboutPage = () => {
             </div>
             <div>
               <img
-                src="https://images.unsplash.com/photo-1567270671170-fdc10a5bf831?w=800"
+                src="images/about_process.webp"
                 alt="Quality Control"
                 className="rounded-lg shadow-lg w-full"
               />

@@ -5,7 +5,7 @@ import { Badge } from '../components/ui/badge';
 export const GalleryPage = () => {
   const [filter, setFilter] = useState('All');
 
-  const categories = ['All', 'PV Fabrics', 'PC Fabrics', 'R/C Fabrics', 'Manufacturing'];
+  const categories = ['All', 'PV Fabrics', 'PC Fabrics', 'R/C Fabrics'];
 
   const filteredImages = filter === 'All' 
     ? galleryImages 

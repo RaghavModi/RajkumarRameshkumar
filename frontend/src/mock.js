@@ -4,10 +4,10 @@ export const companyInfo = {
   name: "Rajkumar Rameshkumar",
   tagline: "Premium PV, PC & R/C Fabrics – Direct from Manufacturer",
   location: "Ahmedabad, Gujarat, India",
-  phone: "+91 XXXXX XXXXX",
-  whatsapp: "+91 XXXXX XXXXX",
+  phone: "+91 98256 06234",
+  whatsapp: "+91 98256 06234",
   email: "info@rajkumarfabrics.com",
-  mapUrl: "https://share.google/TURxLcxBpOyokm6r2",
+  mapUrl: "https://maps.app.goo.gl/tz9BJ3upMEj7PSLT8",
   description: "Leading textile manufacturer specializing in high-quality PV, PC, and R/C fabrics. With years of expertise in fabric production, we serve domestic and international markets with consistent quality and reliable delivery."
 };
 
@@ -32,22 +32,22 @@ export const products = [
       "Workwear"
     ],
     widthRange: "36 - 58 inches",
-    colors: ["Navy Blue", "Black", "Grey", "Beige", "Brown", "Charcoal"],
-    image: "https://images.unsplash.com/photo-1558769132-cb1aea9c1a5c?w=800",
+    colors: ["White","Red", "Green", "Navy Blue", "Black", "Grey", "Beige", "Brown", "Charcoal"],
+    image: "/images/PV_fabrics.png",
     subProducts: [
       {
         id: 11,
-        name: "PV Uniform Fabrics",
-        description: "Specially designed for corporate and school uniforms with enhanced durability.",
+        name: "Sports Star",
+        description: "Shirt, Pajama, Multi-purpose",
         gsm: "180-240 GSM",
-        blend: "65% Polyester, 35% Viscose",
+        blend: "40% Polyester, 60% Viscose",
         features: ["Anti-pilling", "Wrinkle-free", "Color-fast", "Easy care"],
         colors: ["Navy Blue", "Black", "Grey", "Maroon", "Bottle Green"],
         applications: ["Corporate wear", "School uniforms", "Security uniforms", "Hotel staff"]
       },
       {
         id: 12,
-        name: "PV Suiting Fabrics",
+        name: "Cool n Cool",
         description: "Premium quality suiting fabric for formal wear and business suits.",
         gsm: "220-280 GSM",
         blend: "60% Polyester, 40% Viscose",
@@ -57,7 +57,7 @@ export const products = [
       },
       {
         id: 13,
-        name: "PV Shirting Fabrics",
+        name: "Sunnex",
         description: "Comfortable and elegant shirting fabric for formal and casual shirts.",
         gsm: "120-160 GSM",
         blend: "55% Polyester, 45% Viscose",
@@ -88,11 +88,11 @@ export const products = [
     ],
     widthRange: "36 - 58 inches",
     colors: ["White", "Sky Blue", "Pink", "Mint Green", "Cream", "Light Grey"],
-    image: "https://images.unsplash.com/photo-1586105449897-20b5efeb3233?w=800",
+    image: "/images/PC_Fabrics.png",
     subProducts: [
       {
         id: 21,
-        name: "PC Shirting Fabrics",
+        name: "Smile",
         description: "Premium shirting fabric combining cotton comfort with polyester durability.",
         gsm: "110-150 GSM",
         blend: "65% Polyester, 35% Cotton",
@@ -102,7 +102,7 @@ export const products = [
       },
       {
         id: 22,
-        name: "PC Casual Wear Fabrics",
+        name: "Provogue",
         description: "Comfortable fabric perfect for everyday casual clothing and summer wear.",
         gsm: "130-170 GSM",
         blend: "60% Cotton, 40% Polyester",
@@ -112,7 +112,7 @@ export const products = [
       },
       {
         id: 23,
-        name: "PC Uniform Fabrics",
+        name: "Kangan",
         description: "Durable and comfortable fabric for institutional and corporate uniforms.",
         gsm: "150-200 GSM",
         blend: "55% Polyester, 45% Cotton",
@@ -122,7 +122,7 @@ export const products = [
       },
       {
         id: 24,
-        name: "PC Twill Fabrics",
+        name: "Surabhi",
         description: "Strong twill weave fabric ideal for trousers and workwear.",
         gsm: "180-220 GSM",
         blend: "65% Polyester, 35% Cotton",
@@ -153,7 +153,7 @@ export const products = [
     ],
     widthRange: "36 - 58 inches",
     colors: ["White", "Ivory", "Pastel Blue", "Lavender", "Peach", "Sage Green"],
-    image: "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=800",
+    image: "/images/RC_Fabrics.png",
     subProducts: [
       {
         id: 31,
@@ -235,21 +235,21 @@ export const whyChooseUs = [
 export const galleryImages = [
   {
     id: 1,
-    title: "PV Fabric Roll - Navy Blue",
+    title: "Sunnex",
     category: "PV Fabrics",
-    image: "https://images.unsplash.com/photo-1558769132-cb1aea9c1a5c?w=600"
+    image: "/images/sunnex.png"
   },
   {
     id: 2,
-    title: "PC Fabric - White Shirting",
+    title: "PC",
     category: "PC Fabrics",
-    image: "https://images.unsplash.com/photo-1586105449897-20b5efeb3233?w=600"
+    image: "/images/PC.png"
   },
   {
     id: 3,
     title: "R/C Premium Collection",
     category: "R/C Fabrics",
-    image: "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=600"
+    image: "/images/RC.png"
   },
   {
     id: 4,

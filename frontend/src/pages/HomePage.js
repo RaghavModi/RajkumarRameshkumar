@@ -22,40 +22,52 @@ export const HomePage = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-50 via-white to-blue-50 py-20 lg:py-32">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                {companyInfo.tagline}
-              </h1>
-              <p className="text-lg text-gray-600 mb-8">
-                Leading textile manufacturer in Ahmedabad, specializing in high-quality PV, PC, and R/C fabrics. Serving fabric traders, garment manufacturers, and exporters with consistent quality and reliable delivery.
-              </p>
-              <div className="flex flex-wrap gap-4">
-                <Link to="/products">
-                  <Button size="lg" className="bg-blue-900 hover:bg-blue-800">
-                    View Products
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </Button>
-                </Link>
-                <Link to="/contact">
-                  <Button size="lg" variant="outline">
-                    Contact Us
-                  </Button>
-                </Link>
-              </div>
-            </div>
-            <div className="relative">
-              <img
-                src="https://images.unsplash.com/photo-1558769132-cb1aea9c1a5c?w=800"
-                alt="Premium Fabrics"
-                className="rounded-lg shadow-2xl w-full"
-              />
-            </div>
-          </div>
+<section className="relative bg-gradient-to-br from-blue-50 via-white to-blue-50 py-24 overflow-hidden">
+
+  {/* RIGHT SIDE IMAGE */}
+<div className="absolute right-0 top-0 w-[100%] h-[100%] hidden lg:block">
+  <img
+    src="/images/Home_Page_image.png"
+    alt="Premium Fabrics"
+    className="w-full h-full object-cover
+    [mask-image:linear-gradient(to_left,black_75%,transparent)]
+    [-webkit-mask-image:linear-gradient(to_left,black_75%,transparent)]"
+  />
+</div>
+
+  {/* CONTENT */}
+  <div className="relative max-w-7xl mx-auto px-6 lg:px-8 z-10">
+    <div className="grid lg:grid-cols-2 gap-16 items-center">
+
+      <div>
+        <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+          {companyInfo.tagline}
+        </h1>
+
+        <p className="text-lg text-gray-600 mb-8 max-w-xl">
+          Leading textile manufacturer in Ahmedabad, specializing in high-quality PV, PC, and R/C fabrics. Serving traders, garment manufacturers, and exporters with consistent quality and reliable delivery.
+        </p>
+
+        <div className="flex gap-4 flex-wrap">
+          <Link to="/products">
+            <Button size="lg" className="bg-blue-900 hover:bg-blue-800">
+              View Products
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+          </Link>
+
+          <Link to="/contact">
+            <Button size="lg" variant="outline">
+              Contact Us
+            </Button>
+          </Link>
         </div>
-      </section>
+      </div>
+
+    </div>
+  </div>
+
+</section>
 
       {/* Products Preview */}
       <section className="py-16 lg:py-24 bg-white">

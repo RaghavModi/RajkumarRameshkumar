@@ -71,8 +71,6 @@ export const Footer = () => {
               <li className="hover:text-white transition-colors">PV Fabrics</li>
               <li className="hover:text-white transition-colors">PC Fabrics</li>
               <li className="hover:text-white transition-colors">R/C Fabrics</li>
-              <li className="hover:text-white transition-colors">Shirting Fabrics</li>
-              <li className="hover:text-white transition-colors">Uniform Fabrics</li>
             </ul>
           </div>
 

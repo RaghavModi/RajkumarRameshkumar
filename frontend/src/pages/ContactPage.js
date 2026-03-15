@@ -132,7 +132,7 @@ export const ContactPage = () => {
               {/* Map */}
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235013.74843587725!2d72.41493028359374!3d23.02047498388569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1234567890"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.126989402583!2d72.6011358!3d23.019109099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85cd3aaaaaab%3A0x40b9104ebc337839!2sRajkumar%20Rameshkumar!5e0!3m2!1sen!2sin!4v1773545178161!5m2!1sen!2sin"
                   width="100%"
                   height="300"
                   style={{ border: 0 }}
@@ -141,7 +141,7 @@ export const ContactPage = () => {
                   referrerPolicy="no-referrer-when-downgrade"
                   title="Ahmedabad Location"
                 />
-              </div>
+                </div>
             </div>
 
             {/* Contact Form */}
