@@ -12,6 +12,7 @@ export const Header = () => {
     { path: '/about', label: 'About Us' },
     { path: '/products', label: 'Products' },
     { path: '/gallery', label: 'Gallery' },
+    { path: '/faq', label: 'FAQ' },
     { path: '/contact', label: 'Contact' }
   ];
 

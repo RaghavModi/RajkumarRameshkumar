@@ -8,6 +8,7 @@ import { AboutPage } from "./pages/AboutPage";
 import { ProductsPage } from "./pages/ProductsPage";
 import { GalleryPage } from "./pages/GalleryPage";
 import { ContactPage } from "./pages/ContactPage";
+import { FAQPage } from "./pages/FAQPage";
 import { Toaster } from "./components/ui/sonner";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/products" element={<ProductsPage />} />
           <Route path="/gallery" element={<GalleryPage />} />
+          <Route path="/faq" element={<FAQPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
         <Footer />
